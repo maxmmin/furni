@@ -1754,12 +1754,13 @@ button:active {
 .menu {
   display: none;
   background: #f7f8fa;
-  height: 100vh;
   overflow: auto;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+  height: 100%;
   position: fixed;
   top: 0px;
+  left: 0px;
   -webkit-box-shadow: 0px 0px 5px #555555;
           box-shadow: 0px 0px 5px #555555;
 }
@@ -1776,7 +1777,6 @@ button:active {
   background-position: center;
   right: 0px;
   top: 0;
-  margin-top: -7%;
   z-index: 4334;
   position: absolute;
   width: 55px;
@@ -1819,6 +1819,7 @@ button:active {
   max-width: initial;
   display: block;
   margin-top: 7%;
+  margin-bottom: 7%;
 }
 
 .fp-nav_li.modif-firstli {
@@ -1855,7 +1856,9 @@ button:active {
 }
 
 .footer-in-menu {
-  margin-top: 7%;
+  padding-top: 7%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 .rolling {
@@ -1863,13 +1866,6 @@ button:active {
   margin-left: 2.07143rem;
   font-size: 1em;
   font-weight: 500;
-}
-
-.rolling-block {
-  margin-top: 7%;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
 }
 
 .rolling::after {
