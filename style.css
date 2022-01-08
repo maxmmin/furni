@@ -493,7 +493,7 @@ button:active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  z-index: 4223;
+  z-index: 223;
 }
 
 .fp-switch {
@@ -1754,6 +1754,7 @@ button:active {
 .menu {
   display: none;
   background: #f7f8fa;
+  z-index: 2002;
   overflow: auto;
   -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -2020,7 +2021,6 @@ button:active {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 450px;
-    z-index: 200;
     -webkit-transform: translateX(-450px);
             transform: translateX(-450px);
     -webkit-transition: 0.4s ease-in-out;
