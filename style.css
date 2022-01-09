@@ -2021,8 +2021,8 @@ button:active {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 450px;
-    -webkit-transform: translateX(-452px);
-            transform: translateX(-452px);
+    -webkit-transform: translateX(-460px);
+            transform: translateX(-460px);
     -webkit-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
   }
