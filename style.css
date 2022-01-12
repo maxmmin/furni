@@ -600,7 +600,12 @@ button:active {
 
 .fp-slide1-chaircont {
   max-width: 374px;
-  width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  min-width: 303px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -1910,6 +1915,9 @@ button:active {
   .fp-slide1-textblock {
     font-size: 0.8em;
   }
+  .fp-slide1 {
+    padding-right: 10px;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -2156,7 +2164,10 @@ button:active {
     padding: 30.35px 44px;
   }
   .fp-slide1-textblock {
-    margin-top: 40px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-top: -10px;
   }
   .cust-slide-left-cont {
     margin-right: 10px;
