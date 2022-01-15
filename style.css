@@ -237,7 +237,7 @@ button:active {
   display: -ms-flexbox;
   display: flex;
   width: 147px;
-  height: 38.96px;
+  min-height: 38.96px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1940,6 +1940,7 @@ button:active {
 
 .prefooter-main.modif {
   margin-left: 2.07143rem;
+  margin-right: 2.07143rem;
 }
 
 .footer-in-menu {
@@ -2571,6 +2572,25 @@ button:active {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .searchform_select-cont {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 0 25px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .select-cont_text {
+    font-size: 0px;
+    max-height: 3000em;
+  }
+  .select-cont_text::after {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    left: -2px;
+  }
 }
 
 @media (max-width: 305px) {
@@ -2610,17 +2630,64 @@ button:active {
   .cust-slider_first-card {
     padding-bottom: 80px;
   }
+  .lang-sign-flex_sign {
+    margin-top: 4px;
+  }
+  .lang-sign-flex_sign::before {
+    display: block;
+    content: '';
+    height: 2px;
+    border-radius: 8px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    margin-bottom: 2px;
+  }
+  .headfirst_lang-sign-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
-@media (max-width: 262.4px) {
+@media (max-width: 288px) {
   .wrapper {
-    max-width: 262.4px;
+    max-width: 288px;
+  }
+  .lang-sign-flex_lang {
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+  }
+  .lang-sign-flex_lang::after {
+    margin-top: 5px;
   }
   .footer-priv-sec-terms_terms {
     margin-left: 30px;
   }
   .footer-priv-sec-terms_sec {
     margin-left: 30px;
+  }
+  .header-nav_text-logo.modifed {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .text-logo_logo.modifed {
+    margin-left: 2px;
+  }
+  .text-logo_text.modifed {
+    margin-top: 13px;
+    margin-left: 0px;
+  }
+  .searchform_input {
+    padding-left: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */
