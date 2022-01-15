@@ -2656,14 +2656,6 @@ button:active {
   .wrapper {
     max-width: 288px;
   }
-  .lang-sign-flex_lang {
-    width: -webkit-min-content;
-    width: -moz-min-content;
-    width: min-content;
-  }
-  .lang-sign-flex_lang::after {
-    margin-top: 5px;
-  }
   .footer-priv-sec-terms_terms {
     margin-left: 30px;
   }
