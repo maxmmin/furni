@@ -2633,6 +2633,9 @@ button:active {
   .lang-sign-flex_sign {
     margin-top: 4px;
   }
+  .lang-sign-flex_I {
+    display: none;
+  }
   .lang-sign-flex_sign::before {
     display: block;
     content: '';
