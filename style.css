@@ -144,6 +144,22 @@ button:active {
       flex-shrink: 0;
   background: white;
   position: relative;
+  z-index: 10;
+}
+
+.filter {
+  display: none;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.filter.active {
+  display: block;
+  z-index: 2000;
 }
 
 .header_firstline {
@@ -2147,10 +2163,6 @@ button:active {
   .menu_switcher {
     display: block;
   }
-  .contentwrap.filter {
-    -webkit-filter: brightness(0.5);
-            filter: brightness(0.5);
-  }
   .main-nav_nav-flex {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
@@ -2415,8 +2427,8 @@ button:active {
   }
   .menu {
     width: 100%;
-    -webkit-transform: translateX(-100);
-            transform: translateX(-100);
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
   }
   .fp-slide1 {
     -webkit-box-orient: vertical;
