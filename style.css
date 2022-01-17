@@ -522,8 +522,6 @@ button:active {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  -webkit-transition: 0.25s cubic-bezier(0.19, 1, 0.22, 1);
-  transition: 0.25s cubic-bezier(0.19, 1, 0.22, 1);
   -webkit-transition-delay: 0.1s;
           transition-delay: 0.1s;
 }
@@ -540,8 +538,6 @@ button:active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
 }
 
 .fp-slide1 {
