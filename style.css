@@ -162,6 +162,10 @@ button:active {
   z-index: 2000;
 }
 
+input {
+  border-radius: 0px;
+}
+
 .header_firstline {
   height: 50px;
   background: #7AC751;
