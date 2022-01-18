@@ -2039,7 +2039,7 @@ input {
   width: 44px;
 }
 
-@media not all and (hover: none) {
+@media (hover: hover) and (pointer: fine) {
   .main-trend-prod_nav, .main-our-prod_nav, .main-our-prod_nav, .cust-slide-right, .cust-slide-left, .fp-switch, .icons-cont_icon, .lang-sign-flex_lang::after, .lang-sign-flex_sign, .nav-flex_nav, .fp-nav_li, .prefooter-li, .footer-priv-sec-terms_priv, .footer-priv-sec-terms_sec, .footer-priv-sec-terms_terms, .icon, .searchform_search, .select-cont_text::after, .menu_switcher-inmenu, .menu_switcher, .rolling::after, .fp-slide1-shopnow, .nextpage-btn, .nav_vec-cont, .m-last-ar_item-after-bold, .m-o-p_product-name, .m-o-p_imgcont, .m-o-p_new-value, .m-o-p_old-value, .m-o-p_prodrate, .m-t-p_product-name, .m-o-p_product-name, .m-t-p_imgcont, .m-t-p_new-value, .m-o-p_new-value, .m-t-p_old-value, .m-o-p_old-value, .m-t-p_prodrate, .m-o-p_prodrate, .m-t-p_switch-rel {
     cursor: pointer;
   }
