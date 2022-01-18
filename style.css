@@ -2033,6 +2033,12 @@ input {
 .prefooter-main_icons.modif {
   margin-left: 1rem;
   margin-top: 7%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .icon.mod {
