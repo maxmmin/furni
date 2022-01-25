@@ -678,6 +678,10 @@ input {
 
 .fp-slide1-chairimg {
   width: 100%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .fp-slide1-minicards-cont {
