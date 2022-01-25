@@ -169,7 +169,7 @@ input {
   color: #7AC751;
 }
 
-.text-logo_logo, .text-logo_text, .header-nav_icons-cont, .m-t-p_img, .m-o-p_img, .c-s-card1-absol-av, .arrowdown-nav {
+.text-logo_logo, .text-logo_text, .header-nav_icons-cont, .m-t-p_img, .m-o-p_img, .c-s-card1-absol-av, .arrowdown-nav, .m-t-p_prodrate, .m-o-p_prodrate, .fp-slide1-chairimg {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -701,10 +701,6 @@ input {
 
 .fp-slide1-chairimg {
   width: 100%;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
 }
 
 .fp-slide1-minicards-cont {
@@ -909,6 +905,9 @@ input {
 
 .bigcard_link, .little_link {
   display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   color: #757575;
   font-size: 1.14286em;
   line-height: 1.625;
@@ -1121,6 +1120,20 @@ input {
 .m-t-p_prodrate, .m-o-p_prodrate {
   display: inline-block;
   margin-top: 11px;
+  position: relative;
+}
+
+.m-o-p_prodrate-img, .m-t-p_prodrate-img {
+  max-width: 100%;
+}
+
+.m-t-p_prodrate-zblock {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
 }
 
 .main-trend-prod_switchers {
