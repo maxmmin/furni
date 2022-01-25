@@ -169,6 +169,13 @@ input {
   color: #7AC751;
 }
 
+.text-logo_logo, .text-logo_text, .header-nav_icons-cont, .m-t-p_img, .m-o-p_img, .c-s-card1-absol-av {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
 .header_firstline {
   height: 50px;
   background: #7AC751;
