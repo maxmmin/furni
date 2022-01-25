@@ -376,6 +376,10 @@ input {
           justify-content: center;
 }
 
+.search-icon {
+  pointer-events: none;
+}
+
 .header-nav_icons-cont {
   max-width: 124.85px;
   width: 100%;
@@ -1552,6 +1556,10 @@ input {
           align-items: center;
 }
 
+.nav_arrowleft, .nav_arrowright {
+  pointer-events: none;
+}
+
 .main-customers-slider {
   margin-top: 120px;
 }
@@ -1583,6 +1591,10 @@ input {
       flex-shrink: 0;
   margin-left: 58px;
   margin-top: 44px;
+}
+
+.cust-slide-left, .cust-slide-right {
+  pointer-events: none;
 }
 
 @-webkit-keyframes go {
