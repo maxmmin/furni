@@ -169,7 +169,7 @@ input {
   color: #7AC751;
 }
 
-.text-logo_logo, .text-logo_text, .header-nav_icons-cont, .m-t-p_img, .m-o-p_img, .c-s-card1-absol-av, .arrowdown-nav, .m-t-p_prodrate, .m-o-p_prodrate, .fp-slide1-chairimg, .page-n-nav_nav {
+.text-logo_logo, .text-logo_text, .header-nav_icons-cont, .m-t-p_img, .m-o-p_img, .c-s-card1-absol-av, .arrowdown-nav, .m-t-p_prodrate, .m-o-p_prodrate, .fp-slide1-chairimg, .page-n-nav_nav, .cust-slide-right-cont, .cust-slide-left-cont {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
