@@ -592,9 +592,8 @@ input {
   overflow: hidden;
 }
 
-.firstpage-slider .embla__container {
+.fp-slide-track {
   overflow: visible;
-  will-change: transform;
 }
 
 .fp-switchers {
