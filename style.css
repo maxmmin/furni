@@ -592,6 +592,11 @@ input {
   overflow: hidden;
 }
 
+.firstpage-slider .embla__container {
+  overflow: visible;
+  will-change: transform;
+}
+
 .fp-switchers {
   width: 102px;
   display: -webkit-box;
@@ -628,7 +633,7 @@ input {
 .fp-slide1 {
   width: 100%;
   border-radius: 1px;
-  background: linear-gradient(103.4deg, rgba(241, 250, 255, 0.88) 0.89%, #F1FAFF 101.61%);
+  background: rgba(241, 250, 255, 0.88);
   -ms-flex-negative: 0;
       flex-shrink: 0;
   min-height: 439px;
@@ -638,6 +643,7 @@ input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
 }
 
 .fp-slide1-textblock {
@@ -2439,8 +2445,6 @@ input {
     left: 30%;
     top: 10%;
     opacity: 0.2;
-    -webkit-filter: blur(3px);
-            filter: blur(3px);
   }
   .main-trend-prod_grid {
     grid-gap: 25px;
